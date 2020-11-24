@@ -1,0 +1,16 @@
+{
+  "name": "CSS-Redesign",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:andrewnaumann/css-redesign.git",
+  "author": "Andrew Naumann <apnaumann@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts":{
+    "compile:sass": "node-sass ./scss/styles.scss ./css/styles.css",
+    "watch:sass": "node-sass --watch ./scss/styles.scss ./css/styles.css"
+  },
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
