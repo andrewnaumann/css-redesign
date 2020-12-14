@@ -1,0 +1,46 @@
+.lower-case {
+  text-transform: lowercase;
+}
+
+/* Measure is limited to ~66 characters */
+.measure {
+  max-width: 30em;
+}
+
+/* Measure is limited to ~80 characters */
+.measure-wide {
+  max-width: 34em;
+}
+
+/* Measure is limited to ~45 characters */
+.measure-narrow {
+  max-width: 20em;
+}
+
+.ma-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex-col {
+  margin-right: 4rem;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+// @media (max-width: 768px) {
+//   .hidden-sm {
+//     display: none;
+//   }
+// }
+
+// @media (min-width: 768px) {
+//   .hidden-md {
+//     display: none;
+//   }
+// }

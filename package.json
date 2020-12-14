@@ -7,8 +7,8 @@
   "license": "MIT",
   "private": false,
   "scripts":{
-    "compile:sass": "node-sass ./scss/styles.scss ./css/styles.css",
-    "watch:sass": "node-sass --watch ./scss/styles.scss ./css/styles.css"
+    "compile:sass": "node-sass ./scss/anw-styles.scss ./css/anw-styles.css",
+    "watch:sass": "node-sass --watch ./scss/anw-styles.scss ./css/anw-styles.css"
   },
   "devDependencies": {
     "node-sass": "^5.0.0"
