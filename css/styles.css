@@ -106,6 +106,9 @@ a,
 li {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
 
+.lower-case {
+  text-transform: lowercase; }
+
 /* BUTTONS */
 #global-header-nav a {
   text-transform: uppercase;
@@ -126,7 +129,7 @@ li {
     #global-header-nav .btn.btn-default.navbar-btn-secondary:hover, #global-header-nav .btn.btn-default.navbar-btn-secondary:focus {
       color: #003751;
       border: 1px solid #003751; }
-    @media (max-width: 768px) {
+    @media (max-width: 1000px) {
       #global-header-nav .btn.btn-default.navbar-btn-secondary {
         color: #005984; }
         #global-header-nav .btn.btn-default.navbar-btn-secondary:hover {
@@ -135,17 +138,53 @@ li {
   #global-header-nav .btn.btn-default.navbar-btn-primary:focus {
     color: #fff;
     background-color: #003751; }
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
     #global-header-nav .btn.btn-default.navbar-btn-primary {
       color: #fff; }
       #global-header-nav .btn.btn-default.navbar-btn-primary:hover {
         background-color: #003751; }
       #global-header-nav .btn.btn-default.navbar-btn-primary:focus {
         background-color: #003751; } }
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
     #global-header-nav .btn {
-      max-width: 200px;
-      margin-left: 15px; } }
+      margin-left: 15px;
+      margin-right: 15px; } }
+
+@media (max-width: 1000px) {
+  #global-header-nav .navbar-header {
+    float: none; }
+  #global-header-nav .navbar-left,
+  #global-header-nav .navbar-right {
+    float: none !important; }
+  #global-header-nav .navbar-toggle {
+    display: block; }
+  #global-header-nav .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1); }
+  #global-header-nav .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px; }
+  #global-header-nav .navbar-collapse.collapse {
+    display: none !important; }
+  #global-header-nav .navbar-nav {
+    float: none !important;
+    margin-top: 7.5px; }
+  #global-header-nav .navbar-nav > li {
+    float: none; }
+  #global-header-nav .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+  #global-header-nav .collapse.in {
+    display: block !important; }
+  #global-header-nav .navbar-nav .open .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none; } }
 
 #global-header-nav a:hover {
   color: #004f76; }
@@ -186,7 +225,7 @@ li {
 .navbar-nav > li > a:hover {
   text-decoration: underline; }
 
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
   .nav {
     display: flex;
     align-items: center; }
@@ -215,7 +254,7 @@ li {
     height: auto;
     margin: 0; } }
 
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
   .navbar-default .navbar-nav > li > a {
     color: #18688f; }
   .navbar-nav > li > a {
@@ -231,7 +270,7 @@ li {
   .navbar > .container-fluid .navbar-brand {
     margin-left: 0; } }
 
-@media (min-width: 992px) {
+@media (min-width: 1000px) {
   .navbar-nav > li > a {
     padding: 0;
     margin-left: 2rem; }
@@ -250,24 +289,22 @@ li {
   .navbar-collapse {
     padding: 0; } }
 
-@media (max-width: 992px) {
+@media (max-width: 1000px) {
   .navbar-header {
     float: none; }
   .navbar-left,
   .navbar-right {
     float: none !important; }
-  /* .navbar-toggle {
-    display: block;
-  } */
+  .navbar-toggle {
+    display: block; }
   .navbar-collapse {
     border-top: 1px solid transparent;
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1); }
   .navbar-fixed-top {
     top: 0;
     border-width: 0 0 1px; }
-  /* .navbar-collapse.collapse {
-    display: none !important;
-  } */
+  .navbar-collapse.collapse {
+    display: none !important; }
   .navbar-nav {
     float: none !important;
     margin-top: 7.5px; }
