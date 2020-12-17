@@ -6,11 +6,14 @@
   "author": "Andrew Naumann <apnaumann@gmail.com>",
   "license": "MIT",
   "private": false,
-  "scripts":{
+  "scripts": {
     "compile:sass": "node-sass ./scss/anw-styles.scss ./css/anw-styles.css",
     "watch:sass": "node-sass --watch ./scss/anw-styles.scss ./css/anw-styles.css"
   },
   "devDependencies": {
     "node-sass": "^5.0.0"
+  },
+  "dependencies": {
+    "videojs-youtube": "^2.6.1"
   }
 }

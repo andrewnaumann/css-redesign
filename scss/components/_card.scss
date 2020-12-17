@@ -1,0 +1,34 @@
+.anw-card {
+  padding: 1rem;
+  box-shadow: 0 4px 20px RGBA(0, 0, 0, 0.2);
+  border-radius: $borderRadius;
+  z-index: 2;
+  margin-bottom: 2rem;
+  flex-basis: 100%;
+  background: $WHITE;
+
+  .anw-card-icon {
+    margin-bottom: 1rem;
+  }
+
+  .anw-card-title {
+    font-size: 1.563rem; // Same as H4 from typescale
+    font-weight: 600;
+    color: $BLACK;
+    margin-top: 0.5rem;
+  }
+}
+
+.anw-card-container {
+  display: flex;
+  height: 100%;
+}
+
+.anw-callout {
+  position: relative;
+  top: -9rem;
+
+  h2 {
+    margin: 0;
+  }
+}

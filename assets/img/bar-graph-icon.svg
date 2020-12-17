@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55">
+  <g id="bar-graph_icon" data-name="bar-graph icon" transform="translate(-442 -984)">
+    <circle id="Ellipse_13" data-name="Ellipse 13" cx="27.5" cy="27.5" r="27.5" transform="translate(442 984)" fill="#eaf0f6"/>
+    <g id="noun_bar_graph_1867544" data-name="noun_bar graph_1867544" transform="translate(453 994.342)">
+      <path id="Path_1187" data-name="Path 1187" d="M20.841,9.39V29.78a1.388,1.388,0,0,1-1.39,1.39H13.89a1.388,1.388,0,0,1-1.39-1.39V9.39A1.394,1.394,0,0,1,13.89,8h5.561A1.394,1.394,0,0,1,20.841,9.39Z" transform="translate(-0.842 -0.512)" fill="#005a84"/>
+      <path id="Path_1188" data-name="Path 1188" d="M9.341,14.43V30.149a1.388,1.388,0,0,1-1.39,1.39H2.39A1.388,1.388,0,0,1,1,30.149V14.43a1.394,1.394,0,0,1,1.39-1.39H7.951A1.394,1.394,0,0,1,9.341,14.43Z" transform="translate(0 -0.881)" fill="#005a84"/>
+      <path id="Path_1189" data-name="Path 1189" d="M32.341,2.39V29.268a1.388,1.388,0,0,1-1.39,1.39H25.39A1.388,1.388,0,0,1,24,29.268V2.39A1.394,1.394,0,0,1,25.39,1h5.561A1.394,1.394,0,0,1,32.341,2.39Z" transform="translate(-1.683)" fill="#005a84"/>
+    </g>
+  </g>
+</svg>
