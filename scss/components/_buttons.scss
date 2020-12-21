@@ -21,6 +21,7 @@
   &.btn-primary {
     background-color: $primaryColor;
     color: $white;
+    text-transform: uppercase;
 
     &:hover,
     &:focus {

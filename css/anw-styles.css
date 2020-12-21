@@ -76,6 +76,9 @@ h1 {
 .bg-lightgray {
   background: #eaf0f6; }
 
+.w-100 {
+  width: 100%; }
+
 .row.display-flex {
   display: flex;
   flex-wrap: wrap; }
@@ -409,7 +412,8 @@ h1 {
       color: #111; }
   .btn.btn-primary {
     background-color: #005984;
-    color: #fff; }
+    color: #fff;
+    text-transform: uppercase; }
     .btn.btn-primary:hover, .btn.btn-primary:focus {
       background-color: #003751; }
   .btn.btn-secondary, .btn.btn-ghost {
@@ -504,8 +508,8 @@ body {
   padding-bottom: 4rem; }
 
 .anw-card {
-  padding: 1rem;
-  box-shadow: 0 4px 20px RGBA(0, 0, 0, 0.2);
+  padding: 2rem;
+  box-shadow: 0px 6px 8px 0px rgba(45, 35, 66, 0.15);
   border-radius: 8px;
   z-index: 2;
   margin-bottom: 2rem;
@@ -513,18 +517,35 @@ body {
   background: #fff; }
   .anw-card .anw-card-icon {
     margin-bottom: 1rem; }
-  .anw-card .anw-card-title {
-    font-size: 1.563rem;
-    font-weight: 600;
-    color: #111;
-    margin-top: 0.5rem; }
+
+.anw-card.anw-card--info .anw-card-title {
+  font-size: 1.563rem;
+  font-weight: 600;
+  color: #111;
+  margin-top: 0.5rem; }
 
 .anw-card-container {
   display: flex;
   height: 100%; }
 
-.anw-callout {
+.anw-card.anw-card--callout {
   position: relative;
-  top: -9rem; }
-  .anw-callout h2 {
-    margin: 0; }
+  top: -9rem;
+  margin: 0 auto; }
+  @media (min-width: 768px) {
+    .anw-card.anw-card--callout {
+      max-width: 960px;
+      width: 100vw; } }
+  .anw-card.anw-card--callout .anw-card-title {
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0.5rem; }
+
+.anw-card.anw-card--accordion {
+  padding: 1rem 2rem; }
+  .anw-card.anw-card--accordion .anw-card-title {
+    margin: 0;
+    color: #005984; }
+  .anw-card.anw-card--accordion .btn {
+    color: #005984;
+    font-weight: 600; }

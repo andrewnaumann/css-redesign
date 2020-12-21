@@ -1,6 +1,6 @@
 .anw-card {
-  padding: 1rem;
-  box-shadow: 0 4px 20px RGBA(0, 0, 0, 0.2);
+  padding: 2rem;
+  box-shadow: 0px 6px 8px 0px rgba(45, 35, 66, 0.15);
   border-radius: $borderRadius;
   z-index: 2;
   margin-bottom: 2rem;
@@ -10,7 +10,9 @@
   .anw-card-icon {
     margin-bottom: 1rem;
   }
+}
 
+.anw-card.anw-card--info {
   .anw-card-title {
     font-size: 1.563rem; // Same as H4 from typescale
     font-weight: 600;
@@ -24,11 +26,30 @@
   height: 100%;
 }
 
-.anw-callout {
+.anw-card.anw-card--callout {
   position: relative;
   top: -9rem;
+  margin: 0 auto;
+  @media (min-width: 768px) {
+    max-width: 960px;
+    width: 100vw;
+  }
+  .anw-card-title {
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+}
 
-  h2 {
+.anw-card.anw-card--accordion {
+  padding: 1rem 2rem;
+  .anw-card-title {
     margin: 0;
+    color: $primaryColor;
+  }
+
+  .btn {
+    color: $primaryColor;
+    font-weight: 600;
   }
 }
