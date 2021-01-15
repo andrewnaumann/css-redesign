@@ -3,7 +3,7 @@
   background-size: cover;
   background-position: center;
   width: 100vw;
-  height: 60vh;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,9 +11,21 @@
   .page-heading-content {
     color: $WHITE;
     text-align: center;
-    h1 {
+    margin: 8rem 0;
+    h1,
+    .page-heading-content--header {
       color: $WHITE;
       font-size: 2.441rem;
+    }
+    .page-heading-content--sub-header {
+      font-size: 1.563rem;
+      font-weight: 200;
+    }
+    .btn-play {
+      transition: opacity ease-in-out $animationSpeed;
+    }
+    .btn-play:hover {
+      opacity: 0.5;
     }
   }
 }
@@ -91,9 +103,4 @@ body {
   100% {
     transform: translate(85px, 0%);
   }
-}
-
-.anw-section {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
 }

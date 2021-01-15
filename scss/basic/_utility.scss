@@ -46,34 +46,3 @@
   display: flex;
   flex-wrap: wrap;
 }
-
-// MOVE THIS INTO A SECTION CSS WHEN YOU'RE NOT SO LAZY
-.custom-shape-divider-bottom-1608162505 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-}
-
-.custom-shape-divider-bottom-1608162505 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 160px;
-}
-
-.custom-shape-divider-bottom-1608162505 .shape-fill {
-  fill: $LIGHT_GRAY;
-}
-
-.anw-section {
-  position: relative;
-}
-
-.anw-section {
-  &.divider-bottom {
-    padding-bottom: 8rem;
-  }
-}

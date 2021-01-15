@@ -15,6 +15,10 @@
     />
     <link rel="stylesheet" href="./css/bootstrap.css" />
     <link rel="stylesheet" href="./css//typography.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/anw-styles.css" />
   </head>
@@ -148,18 +152,43 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-12 page-heading-content">
-              <h1>
+              <h1 class="page-heading-content--header">
                 In everything we do, we challenge ourselves to outperform
                 conventional results
               </h1>
-              <p>
+              <p class="page-heading-content--sub-header">
                 Statistic. You have a job that needs to be completed. You could
                 make that job faster, more efficient and easier to manage.
               </p>
               <p>
-                <a class="btn btn-primary btn-lg" href="#" role="button"
-                  >Learn more</a
-                >
+                <a
+                  class="btn-play"
+                  data-fslightbox="gallery"
+                  href="https://www.youtube.com/watch?v=wu7Kgugvt24"
+                  role="button"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="76"
+                    height="76"
+                    viewBox="0 0 76 76"
+                  >
+                    <g
+                      id="noun_play_739108"
+                      transform="translate(-12 -964.362)"
+                    >
+                      <path
+                        id="Path_1225"
+                        data-name="Path 1225"
+                        d="M50,964.362a38,38,0,1,0,38,38,38,38,0,0,0-38-38Zm-11,20,30,18-30,18Z"
+                        fill="#fff"
+                      />
+                    </g>
+                  </svg>
+                </a>
+              </p>
+              <p class="page-heading-content--sub-header">
+                Statistic. You have a job that needs to be completed. You could
+                make that job faster, more efficient and easier to manage.
               </p>
             </div>
           </div>
@@ -285,21 +314,20 @@
             </div>
           </div>
         </div>
-        <div class="custom-shape-divider-bottom-1608162505">
-          <svg
-            data-name="Layer 1"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 1200 120"
-            preserveAspectRatio="none"
-          >
-            <path
-              d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z"
-              class="shape-fill"
-            ></path>
-          </svg>
-        </div>
       </section>
-      <section class="anw-section bg-lightgray">
+      <section class="anw-section anw-section--fancy-borders bg-lightgray">
+        <svg
+          class="fancy-border"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 320"
+        >
+          <path
+            class="wave-divider"
+            fill="#ffffff"
+            fill-opacity="1"
+            d="M0,64L60,69.3C120,75,240,85,360,96C480,107,600,117,720,106.7C840,96,960,64,1080,69.3C1200,75,1320,117,1380,138.7L1440,160L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"
+          ></path>
+        </svg>
         <div class="container">
           <div class="row flex-row">
             <div class="col-xs-12">
@@ -334,7 +362,7 @@
                         aria-expanded="false"
                         aria-controls="collapseOne"
                       >
-                        Collapsible Group Item #1
+                        <i class="fas fa-plus"></i>Collapsible Group Item #1
                       </button>
                     </h2>
                   </div>
@@ -371,6 +399,7 @@
                         aria-expanded="false"
                         aria-controls="collapseTwo"
                       >
+                        <i class="fas fa-plus"></i>
                         Collapsible Group Item #2
                       </button>
                     </h2>
@@ -407,6 +436,7 @@
                         aria-expanded="false"
                         aria-controls="collapseThree"
                       >
+                        <i class="fas fa-plus"></i>
                         Collapsible Group Item #3
                       </button>
                     </h2>
@@ -581,5 +611,7 @@
 
     <script src="./js/jquery.js"></script>
     <script src="./js/bootstrap.js"></script>
+    <script src="./js/fslightbox.js"></script>
+    <script src="./js/anw-scripts.js"></script>
   </body>
 </html>

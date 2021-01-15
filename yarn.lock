@@ -394,6 +394,11 @@ fs.realpath@^1.0.0:
   resolved "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
   integrity sha1-FQStJSMVjKpA20onh8sBQRmU6k8=
 
+fslightbox@^3.2.3:
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/fslightbox/-/fslightbox-3.2.3.tgz#d91c64ad77121a81a3245b4ab81174779aa3d3d9"
+  integrity sha512-SMRYKBQxCVl8FJM7ptFzrInekqJv70pIgb4C+ybOVOlZsbJGfszp77Ls1KII3dMmL2eUsy4IZJCwLPbW6JSCFw==
+
 function-bind@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"

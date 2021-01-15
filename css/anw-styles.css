@@ -83,29 +83,6 @@ h1 {
   display: flex;
   flex-wrap: wrap; }
 
-.custom-shape-divider-bottom-1608162505 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0; }
-
-.custom-shape-divider-bottom-1608162505 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 160px; }
-
-.custom-shape-divider-bottom-1608162505 .shape-fill {
-  fill: #eaf0f6; }
-
-.anw-section {
-  position: relative; }
-
-.anw-section.divider-bottom {
-  padding-bottom: 8rem; }
-
 #anw-global-header-nav a {
   text-transform: uppercase;
   letter-spacing: 0.8px;
@@ -431,17 +408,26 @@ h1 {
   background-size: cover;
   background-position: center;
   width: 100vw;
-  height: 60vh;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative; }
   .anw-page-heading .page-heading-content {
     color: #fff;
-    text-align: center; }
-    .anw-page-heading .page-heading-content h1 {
+    text-align: center;
+    margin: 8rem 0; }
+    .anw-page-heading .page-heading-content h1,
+    .anw-page-heading .page-heading-content .page-heading-content--header {
       color: #fff;
       font-size: 2.441rem; }
+    .anw-page-heading .page-heading-content .page-heading-content--sub-header {
+      font-size: 1.563rem;
+      font-weight: 200; }
+    .anw-page-heading .page-heading-content .btn-play {
+      transition: opacity ease-in-out 180ms; }
+    .anw-page-heading .page-heading-content .btn-play:hover {
+      opacity: 0.5; }
 
 body {
   margin: 0;
@@ -503,10 +489,6 @@ body {
   100% {
     transform: translate(85px, 0%); } }
 
-.anw-section {
-  padding-top: 4rem;
-  padding-bottom: 4rem; }
-
 .anw-card {
   padding: 2rem;
   box-shadow: 0px 6px 8px 0px rgba(45, 35, 66, 0.15);
@@ -529,8 +511,6 @@ body {
   height: 100%; }
 
 .anw-card.anw-card--callout {
-  position: relative;
-  top: -9rem;
   margin: 0 auto; }
   @media (min-width: 768px) {
     .anw-card.anw-card--callout {
@@ -548,4 +528,22 @@ body {
     color: #005984; }
   .anw-card.anw-card--accordion .btn {
     color: #005984;
-    font-weight: 600; }
+    font-weight: 600;
+    padding: 0; }
+    .anw-card.anw-card--accordion .btn i {
+      padding-right: 1rem; }
+
+.anw-section {
+  position: relative; }
+
+.anw-section.divider-bottom {
+  padding-bottom: 8rem; }
+
+.anw-section {
+  padding-top: 4rem;
+  padding-bottom: 4rem; }
+  .anw-section.anw-section--fancy-borders {
+    padding: 0; }
+    .anw-section.anw-section--fancy-borders .fancy-border {
+      position: absolute;
+      filter: drop-shadow(0 8px 6px rgba(0, 0, 0, 0.05)); }

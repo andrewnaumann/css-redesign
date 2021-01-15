@@ -1,0 +1,20 @@
+.anw-section {
+  position: relative;
+}
+
+.anw-section {
+  &.divider-bottom {
+    padding-bottom: 8rem;
+  }
+}
+.anw-section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  &.anw-section--fancy-borders {
+    padding: 0;
+    .fancy-border {
+      position: absolute;
+      filter: drop-shadow(0 8px 6px rgba(0, 0, 0, 0.05));
+    }
+  }
+}
