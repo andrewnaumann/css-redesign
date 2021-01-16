@@ -1,3 +1,6 @@
+img {
+  max-width: 100%;
+}
 .lower-case {
   text-transform: lowercase;
 }
@@ -31,6 +34,13 @@
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
+
+  &.flex-row--direction-row {
+    flex-direction: row;
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+  }
 }
 
 .bg-lightgray {
@@ -45,4 +55,14 @@
 .row.display-flex {
   display: flex;
   flex-wrap: wrap;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.col-flex-centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
