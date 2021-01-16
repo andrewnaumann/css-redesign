@@ -21,12 +21,32 @@
   }
 }
 
+.anw-card--link {
+  .anw-card--description {
+    color: $BLACK;
+  }
+  transition: box-shadow ease-in-out $animationSpeed;
+  &:hover {
+    box-shadow: 0px 20px 18px 0px rgba(45, 35, 66, 0.15);
+    text-decoration: none;
+  }
+  &:focus {
+    text-decoration: none;
+    box-shadow: 0px 20px 18px 0px rgba(45, 35, 66, 0.15);
+  }
+}
+
 .anw-card-container {
   display: flex;
   height: 100%;
 }
 
 .anw-card.anw-card--callout {
+  &.anw-card--callout-bg {
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+  }
   margin: 0 auto;
   @media (min-width: 768px) {
     max-width: 960px;

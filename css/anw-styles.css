@@ -506,12 +506,27 @@ body {
   color: #111;
   margin-top: 0.5rem; }
 
+.anw-card--link {
+  transition: box-shadow ease-in-out 180ms; }
+  .anw-card--link .anw-card--description {
+    color: #111; }
+  .anw-card--link:hover {
+    box-shadow: 0px 20px 18px 0px rgba(45, 35, 66, 0.15);
+    text-decoration: none; }
+  .anw-card--link:focus {
+    text-decoration: none;
+    box-shadow: 0px 20px 18px 0px rgba(45, 35, 66, 0.15); }
+
 .anw-card-container {
   display: flex;
   height: 100%; }
 
 .anw-card.anw-card--callout {
   margin: 0 auto; }
+  .anw-card.anw-card--callout.anw-card--callout-bg {
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat; }
   @media (min-width: 768px) {
     .anw-card.anw-card--callout {
       max-width: 960px;
