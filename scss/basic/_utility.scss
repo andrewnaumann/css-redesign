@@ -1,6 +1,11 @@
 img {
   max-width: 100%;
 }
+
+html {
+  // attempt to fix the scroll bar from adding page width on webkit windows
+  overflow-y: overlay;
+}
 .lower-case {
   text-transform: lowercase;
 }
