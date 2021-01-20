@@ -516,7 +516,6 @@ html {
       color: #fff; }
 
 .anw-page-heading {
-  background-image: url("../assets/img/page-heading-bg.jpg");
   background-size: cover;
   background-position: center;
   width: 100vw;
@@ -649,7 +648,8 @@ body {
   margin: 0; }
 
 .anw-card--blog-blurb .anw-card--post-date {
-  margin: 0; }
+  margin: 0;
+  font-size: 0.8rem; }
 
 .anw-card--blog-blurb .anw-card--content-container {
   min-height: 26rem;
