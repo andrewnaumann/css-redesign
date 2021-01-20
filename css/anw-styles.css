@@ -109,6 +109,9 @@ img {
   flex-direction: column;
   justify-content: center; }
 
+.color--primary {
+  color: #005984 !important; }
+
 .headerImage {
   padding-top: 0; }
 
@@ -724,7 +727,7 @@ body {
   transition: box-shadow ease-in-out 180ms; }
   .anw-card--link .anw-card--description {
     color: #666;
-    margin-bottom: 2rem; }
+    margin-bottom: 3rem; }
   .anw-card--link:hover {
     box-shadow: 0px 20px 18px 0px rgba(45, 35, 66, 0.15);
     text-decoration: none; }

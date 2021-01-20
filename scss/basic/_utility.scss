@@ -79,3 +79,7 @@ img {
   flex-direction: column;
   justify-content: center;
 }
+
+.color--primary {
+  color: $primaryColor !important;
+}
