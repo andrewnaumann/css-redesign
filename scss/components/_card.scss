@@ -15,6 +15,18 @@
     margin-top: 0;
     font-weight: 600;
   }
+
+  .anw-card--category {
+    text-transform: uppercase;
+    color: $primaryColor;
+    margin: 0;
+  }
+
+  &.anw-card--subtle {
+    background: transparent;
+    box-shadow: none;
+    margin: 0;
+  }
 }
 
 .anw-card--blog-blurb {
@@ -22,12 +34,9 @@
     margin-top: 0;
     font-weight: 600;
     font-size: 1.563rem;
+    margin-bottom: 6rem;
   }
-  .anw-card--category {
-    text-transform: uppercase;
-    color: $primaryColor;
-    margin: 0;
-  }
+
   .anw-card--author-photo {
     display: block;
     border-radius: 50%;
@@ -119,8 +128,10 @@
 }
 
 .anw-card--link {
+  position: relative;
   .anw-card--description {
-    color: $BLACK;
+    color: $paragraphColor;
+    margin-bottom: 2rem;
   }
   transition: box-shadow ease-in-out $animationSpeed;
   &:hover {
@@ -130,6 +141,11 @@
   &:focus {
     text-decoration: none;
     box-shadow: 0px 20px 18px 0px rgba(45, 35, 66, 0.15);
+  }
+  .anw-card--link-anchor {
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
   }
 }
 

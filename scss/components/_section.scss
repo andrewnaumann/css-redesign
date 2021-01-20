@@ -26,6 +26,10 @@
     position: absolute;
     filter: drop-shadow(0 8px 6px rgba(0, 0, 0, 0.05));
     top: 0;
+
+    &.anw-section--fancy-border-on-white {
+      filter: drop-shadow(0 8px 4px rgba(0, 0, 0, 0.1));
+    }
   }
   .anw-section--fancy-border-bottom {
     position: absolute;

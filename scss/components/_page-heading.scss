@@ -18,10 +18,14 @@
       font-size: 2.441rem;
     }
     .page-heading-content--sub-header {
+      color: $white;
       font-size: 1.563rem;
       font-weight: 200;
+      line-height: 1.4;
     }
     .btn-play {
+      display: inline-block;
+      margin: 3rem 0;
       transition: opacity ease-in-out $animationSpeed;
     }
     .btn-play:hover {
@@ -103,4 +107,13 @@ body {
   100% {
     transform: translate(85px, 0%);
   }
+}
+
+.anw-section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+#page-header-video {
+  display: none;
 }

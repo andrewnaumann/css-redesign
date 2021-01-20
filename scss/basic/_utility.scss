@@ -5,6 +5,12 @@ img {
   text-transform: lowercase;
 }
 
+.container--narrow {
+  @media (min-width: 1200px) {
+    width: 970px;
+  }
+}
+
 /* Measure is limited to ~66 characters */
 .measure {
   max-width: 30em;
