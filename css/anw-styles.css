@@ -796,3 +796,6 @@ body {
     position: absolute;
     filter: drop-shadow(0 8px 6px rgba(0, 0, 0, 0.05));
     bottom: 0; }
+
+#main-content-wrapper {
+  overflow: hidden; }
