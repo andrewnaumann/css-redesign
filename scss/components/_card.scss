@@ -34,20 +34,30 @@
     margin-top: 0;
     font-weight: 600;
     font-size: 1.563rem;
-    margin-bottom: 6rem;
   }
 
   .anw-card--author-photo {
     display: block;
     border-radius: 50%;
     width: 3rem;
-    margin-top: 3rem;
+    margin-bottom: 0.5rem;
   }
   .anw-card--author-name {
     margin: 0;
   }
   .anw-card--post-date {
     margin: 0;
+  }
+
+  .anw-card--content-container {
+    min-height: 26rem;
+    position: relative;
+  }
+
+  .anw-card--meta-content {
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
   }
 }
 
@@ -98,11 +108,19 @@
   padding: 0;
 
   .anw-card--image-container {
-    // padding-right: 0;
-    img {
-      max-width: 100%;
+    .anw-card--image-left-background {
       border-top-left-radius: $borderRadius;
       border-bottom-left-radius: $borderRadius;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center;
+      @media (max-width: 767px) {
+        border-top-right-radius: $borderRadius;
+        border-bottom-left-radius: 0;
+        height: 400px;
+      }
     }
   }
   .anw-card--content-container {

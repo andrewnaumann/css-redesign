@@ -214,31 +214,38 @@
             />
           </defs>
           <g class="parallax1">
-            <use
+            <!-- <use
               xlink:href="#gentle-wave"
               x="50"
               y="3"
               fill="rgba(0, 89, 132, .8)"
-            />
+            /> -->
           </g>
           <g class="parallax2">
-            <use
+            <!-- <use
               xlink:href="#gentle-wave"
               x="50"
               y="0"
               fill="rgba(148, 155, 80, .8)"
-            />
+            /> -->
+            <!-- <use xlink:href="#gentle-wave" x="50" y="0" fill="#fff" /> -->
           </g>
           <g class="parallax3">
-            <use
+            <!-- <use
               xlink:href="#gentle-wave"
               x="50"
               y="9"
               fill="rgba(95, 96, 75, .8)"
+            /> -->
+            <use
+              xlink:href="#gentle-wave"
+              x="100"
+              y="9"
+              fill="rgba(255,255,255,1)"
             />
           </g>
           <g class="parallax4">
-            <use xlink:href="#gentle-wave" x="50" y="6" fill="#fff" />
+            <!-- <use xlink:href="#gentle-wave" x="50" y="6" fill="#fff" /> -->
           </g>
         </svg>
       </section>
@@ -519,14 +526,16 @@
             <div class="col-xs-12">
               <div class="anw-card-container">
                 <div class="anw-card anw-card--image-left">
-                  <div class="row">
+                  <div class="row display-flex">
                     <div
                       class="anw-card--image-container col-xs-12 col-sm-6 col-md-4"
                     >
-                      <img
-                        src="./assets/img/blog-images/Artboard 2.png"
-                        alt=""
-                      />
+                      <div
+                        class="anw-card--image-left-background"
+                        style="
+                          background-image: url('./assets/img/blog-images/Artboard\ 2.png');
+                        "
+                      ></div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-8">
                       <div class="anw-card--content-container">
@@ -547,14 +556,16 @@
             <div class="col-xs-12">
               <div class="anw-card-container">
                 <div class="anw-card anw-card--image-left">
-                  <div class="row">
+                  <div class="row display-flex">
                     <div
                       class="anw-card--image-container col-xs-12 col-sm-6 col-md-4"
                     >
-                      <img
-                        src="./assets/img/blog-images/Blog Hero.png"
-                        alt=""
-                      />
+                      <div
+                        class="anw-card--image-left-background"
+                        style="
+                          background-image: url('./assets/img/blog-images/Blog\ Hero.png');
+                        "
+                      ></div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-8">
                       <div class="anw-card--content-container">
@@ -635,27 +646,55 @@
           ></path>
         </svg>
 
-        <div class="container">
-          <div class="row">
+        <div class="container container--wide">
+          <div class="row display-flex">
             <div class="col-xs-12 col-sm-6 col-md-3">
               <div class="anw-card-container">
                 <div class="anw-card anw-card--image-top anw-card--blog-blurb">
                   <div class="anw-card--image-container">
                     <img
-                      src="https://picsum.photos/1000/500?random=?13"
+                      src="./assets/img/blog-images/ButtermouseArtboard 2-8-1.png"
                       alt=""
                     />
                   </div>
                   <div class="anw-card--content-container">
-                    <p class="anw-card--category">Category title</p>
-                    <h2 class="anw-card--title">This is the card title</h2>
-                    <img
-                      src="https://picsum.photos/100/100?random=4"
-                      alt=""
-                      class="anw-card--author-photo"
-                    />
-                    <a class="anw-card--author-name">Jerome Jelinek</a>
-                    <p class="anw-card--post-date">November 12, 2019</p>
+                    <p class="anw-card--category">Title and Closing</p>
+                    <h2 class="anw-card--title">
+                      The Endless Benefits of a Centralized Title Model
+                    </h2>
+                    <div class="anw-card--meta-content">
+                      <img
+                        src="./assets/img/blog-images/Artboard 2.png"
+                        alt=""
+                        class="anw-card--author-photo"
+                      />
+                      <a class="anw-card--author-name">Jerome Jelinek</a>
+                      <p class="anw-card--post-date">November 12, 2019</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+              <div class="anw-card-container">
+                <div class="anw-card anw-card--image-top anw-card--blog-blurb">
+                  <div class="anw-card--image-container">
+                    <img src="./assets/img/blog-images/Artboard 2.png" alt="" />
+                  </div>
+                  <div class="anw-card--content-container">
+                    <p class="anw-card--category">Home Equity Lending</p>
+                    <h2 class="anw-card--title">
+                      Advantage AVM Cascade: Get Better Results and Lower Costs
+                    </h2>
+                    <div class="anw-card--meta-content">
+                      <img
+                        src="https://picsum.photos/100/100?random=3"
+                        alt=""
+                        class="anw-card--author-photo"
+                      />
+                      <a class="anw-card--author-name">William Janke</a>
+                      <p class="anw-card--post-date">November 12, 2019</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -665,20 +704,24 @@
                 <div class="anw-card anw-card--image-top anw-card--blog-blurb">
                   <div class="anw-card--image-container">
                     <img
-                      src="https://picsum.photos/1000/500?random=?12"
+                      src="./assets/img/blog-images/Artboard 2-Nov-02-2020-05-05-15-38-PM.webp"
                       alt=""
                     />
                   </div>
                   <div class="anw-card--content-container">
-                    <p class="anw-card--category">Category title</p>
-                    <h2 class="anw-card--title">This is the card title</h2>
-                    <img
-                      src="https://picsum.photos/100/100?random=3"
-                      alt=""
-                      class="anw-card--author-photo"
-                    />
-                    <a class="anw-card--author-name">Jerome Jelinek</a>
-                    <p class="anw-card--post-date">November 12, 2019</p>
+                    <p class="anw-card--category">eClosing and RON</p>
+                    <h2 class="anw-card--title">
+                      RON vs. RIN—What’s the Difference?
+                    </h2>
+                    <div class="anw-card--meta-content">
+                      <img
+                        src="https://picsum.photos/100/100?random=2"
+                        alt=""
+                        class="anw-card--author-photo"
+                      />
+                      <a class="anw-card--author-name">Maura Snabes</a>
+                      <p class="anw-card--post-date">November 12, 2019</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -688,43 +731,24 @@
                 <div class="anw-card anw-card--image-top anw-card--blog-blurb">
                   <div class="anw-card--image-container">
                     <img
-                      src="https://picsum.photos/1000/500?random=?11"
+                      src="./assets/img/blog-images/Artboard 2s.png"
                       alt=""
                     />
                   </div>
                   <div class="anw-card--content-container">
-                    <p class="anw-card--category">Category title</p>
-                    <h2 class="anw-card--title">This is the card title</h2>
-                    <img
-                      src="https://picsum.photos/100/100?random=2"
-                      alt=""
-                      class="anw-card--author-photo"
-                    />
-                    <a class="anw-card--author-name">Jerome Jelinek</a>
-                    <p class="anw-card--post-date">November 12, 2019</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-3">
-              <div class="anw-card-container">
-                <div class="anw-card anw-card--image-top anw-card--blog-blurb">
-                  <div class="anw-card--image-container">
-                    <img
-                      src="https://picsum.photos/1000/500?random=?10"
-                      alt=""
-                    />
-                  </div>
-                  <div class="anw-card--content-container">
-                    <p class="anw-card--category">Category title</p>
-                    <h2 class="anw-card--title">This is the card title</h2>
-                    <img
-                      src="https://picsum.photos/100/100?random=1"
-                      alt=""
-                      class="anw-card--author-photo"
-                    />
-                    <a class="anw-card--author-name">Jerome Jelinek</a>
-                    <p class="anw-card--post-date">November 12, 2019</p>
+                    <p class="anw-card--category">eClosing and RON</p>
+                    <h2 class="anw-card--title">
+                      Benefits of eSignatures and eClosing
+                    </h2>
+                    <div class="anw-card--meta-content">
+                      <img
+                        src="https://picsum.photos/100/100?random=1"
+                        alt=""
+                        class="anw-card--author-photo"
+                      />
+                      <a class="anw-card--author-name">Jerome Jelinek</a>
+                      <p class="anw-card--post-date">November 12, 2019</p>
+                    </div>
                   </div>
                 </div>
               </div>

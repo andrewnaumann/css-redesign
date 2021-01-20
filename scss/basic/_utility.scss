@@ -7,7 +7,14 @@ img {
 
 .container--narrow {
   @media (min-width: 1200px) {
-    width: 970px;
+    max-width: 970px;
+  }
+}
+
+.container--wide {
+  @media (min-width: 1200px) {
+    width: 100%;
+    max-width: 1300px;
   }
 }
 
