@@ -1,0 +1,25 @@
+.anw-accordion {
+}
+
+.anw-accordion__heading {
+  margin: 1rem 0;
+  button {
+    color: $primaryColor;
+    font-weight: 400;
+    font-size: 1.25rem;
+    text-decoration: none;
+    font-family: $sansSerif;
+    font-size: 1rem;
+    background: transparent;
+    border: none;
+
+    &:focus,
+    &:active {
+      text-decoration: underline;
+      outline: none;
+    }
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

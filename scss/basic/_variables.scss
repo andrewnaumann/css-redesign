@@ -11,8 +11,12 @@ $secondaryColor: $OLIVE;
 $paragraphColor: $DARK_GRAY;
 $white: $WHITE;
 $black: $BLACK;
+$darkGray: $DARK_GRAY;
 
 $borderRadius: 8px;
 $animationSpeed: 180ms;
 
 $sm-break-point: 1000px;
+
+$sansSerif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+  Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";

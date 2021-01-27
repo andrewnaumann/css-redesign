@@ -19,6 +19,9 @@
     .fancy-border {
       position: absolute;
       filter: drop-shadow(0 8px 6px rgba(0, 0, 0, 0.05));
+      &.fancy-border--no-overlay {
+        position: relative;
+      }
     }
   }
 
@@ -26,6 +29,10 @@
     position: absolute;
     filter: drop-shadow(0 8px 6px rgba(0, 0, 0, 0.05));
     top: 0;
+
+    &.no-shadow {
+      filter: none;
+    }
 
     &.anw-section--fancy-border-on-white {
       filter: drop-shadow(0 8px 4px rgba(0, 0, 0, 0.1));
@@ -40,4 +47,9 @@
 
 #main-content-wrapper {
   overflow: hidden;
+}
+
+.waves-nudge {
+  padding-top: 4rem;
+  margin-bottom: 6rem;
 }

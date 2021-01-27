@@ -23,6 +23,10 @@ html {
   }
 }
 
+.text-align-center {
+  text-align: center;
+}
+
 /* Measure is limited to ~66 characters */
 .measure {
   max-width: 30em;
@@ -87,4 +91,12 @@ html {
 
 .color--primary {
   color: $primaryColor !important;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
 }
