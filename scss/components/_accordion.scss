@@ -6,10 +6,9 @@
   button {
     color: $primaryColor;
     font-weight: 400;
-    font-size: 1.25rem;
     text-decoration: none;
     font-family: $sansSerif;
-    font-size: 1rem;
+    font-size: 1.25rem;
     background: transparent;
     border: none;
 
@@ -21,5 +20,13 @@
     &:hover {
       text-decoration: underline;
     }
+  }
+  button .fa {
+    transition: all ease-in-out $animationSpeed;
+    transform: rotate(90deg);
+  }
+
+  button[aria-expanded="false"] .fa {
+    transform: rotate(0deg);
   }
 }

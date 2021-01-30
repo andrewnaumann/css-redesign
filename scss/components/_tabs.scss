@@ -11,18 +11,20 @@ Licensed under MIT
 
 /* Default mode */
 .tabbable-line > .nav-tabs {
-  border: none;
+  border-bottom: 1px solid $darkGray;
   margin: 0px;
   display: flex;
   justify-content: space-around;
 }
 .tabbable-line > .nav-tabs > li {
   margin-right: 2px;
+  border-bottom: 4px solid #a6a6a6;
 }
 .tabbable-line > .nav-tabs > li > a {
   border: 0;
   margin-right: 0;
-  color: #737373;
+  color: $darkGray;
+  font-weight: 600;
 }
 .tabbable-line > .nav-tabs > li > a > i {
   color: #a6a6a6;
@@ -71,4 +73,9 @@ Licensed under MIT
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
   background-color: transparent;
+}
+
+.nav-tabs li {
+  position: relative;
+  top: 1px;
 }
