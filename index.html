@@ -22,6 +22,10 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/anw-styles.css" />
   </head>
@@ -502,9 +506,9 @@
           ></path>
         </svg>
 
-        <div class="container container--wide">
-          <div class="row display-flex">
-            <div class="col-xs-12 col-sm-6 col-md-3">
+        <div class="container--wide swiper-container">
+          <div class="row swiper-wrapper">
+            <div class="col-xs-12 col-sm-6 col-md-3 swiper-slide">
               <div class="anw-card-container">
                 <div class="anw-card anw-card--image-top anw-card--blog-blurb">
                   <div class="anw-card--image-container">
@@ -531,7 +535,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="col-xs-12 col-sm-6 col-md-3 swiper-slide">
               <div class="anw-card-container">
                 <div class="anw-card anw-card--image-top anw-card--blog-blurb">
                   <div class="anw-card--image-container">
@@ -555,7 +559,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="col-xs-12 col-sm-6 col-md-3 swiper-slide">
               <div class="anw-card-container">
                 <div class="anw-card anw-card--image-top anw-card--blog-blurb">
                   <div class="anw-card--image-container">
@@ -582,7 +586,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="col-xs-12 col-sm-6 col-md-3 swiper-slide">
               <div class="anw-card-container">
                 <div class="anw-card anw-card--image-top anw-card--blog-blurb">
                   <div class="anw-card--image-container">
@@ -780,6 +784,28 @@
     <script src="./js/jquery.js"></script>
     <script src="./js/bootstrap.js"></script>
     <script src="./js/fslightbox.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./js/anw-scripts.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper-container", {
+        breakpoints: {
+          // when window width is >= 320px
+          320: {
+            slidesPerView: 1,
+          },
+          // when window width is >= 480px
+          768: {
+            slidesPerView: 2,
+          },
+          // when window width is >= 640px
+          960: {
+            slidesPerView: 3,
+          },
+          1280: {
+            slidesPerView: 4,
+          },
+        },
+      });
+    </script>
   </body>
 </html>

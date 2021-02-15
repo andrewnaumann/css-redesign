@@ -138,6 +138,9 @@ html {
 .headerImage {
   padding-top: 0; }
 
+.swiper-container {
+  padding: 0 15px; }
+
 #anw-global-header-nav a {
   text-transform: uppercase;
   letter-spacing: 0.8px;
@@ -563,6 +566,9 @@ html {
       transition: opacity ease-in-out 180ms; }
     .anw-page-heading .page-heading-content .btn-play:hover {
       opacity: 0.5; }
+  @media (max-width: 768px) {
+    .anw-page-heading .btn--underline {
+      font-size: 1.25rem; } }
 
 body {
   margin: 0;
@@ -792,6 +798,8 @@ body {
     padding: 0; }
     .anw-card.anw-card--accordion .btn i {
       padding-right: 1rem; }
+  .anw-card.anw-card--accordion .card-body {
+    padding-left: 26px; }
 
 .anw-section {
   position: relative; }
@@ -830,6 +838,9 @@ body {
 .waves-nudge {
   padding-top: 4rem;
   margin-bottom: 6rem; }
+
+.anw-accordion .card-body {
+  padding-left: 26px; }
 
 .anw-accordion__heading {
   margin: 1rem 0; }

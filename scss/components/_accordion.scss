@@ -1,4 +1,8 @@
 .anw-accordion {
+  .card-body {
+    // Hack to algn body text with the title
+    padding-left: 26px;
+  }
 }
 
 .anw-accordion__heading {
